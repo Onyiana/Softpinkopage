@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#bg{
+    background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
+    background-position: center;
+    height: 70vh;
+    padding-top:20px ;
+}
+
+.btn {
+    background-color: #ff3399;
+    font-size: 15px;
+}
+
+.btn:hover{
+    border: 1px solid white;
+}
+
+.display-6{
+    font-weight: 500;
+}
+
