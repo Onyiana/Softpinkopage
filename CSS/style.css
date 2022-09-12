@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
 #bg{
@@ -28,5 +30,9 @@
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
     background-position: center;
     height: 80vh;
+}
+
+#pricing{
+    background-color: #F2F2FE;
 }
 
