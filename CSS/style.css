@@ -51,5 +51,18 @@
     font-size: 18px;
 }
 
+.form-control{
+    padding: 10px;
+    outline: 0;
+}
+
+#Talk-to-us{
+    background-color: #F2F2FE;  
+}
+
+#footer{
+    background-image: linear-gradient(to right,rgba(164,89,210,0.8),rgba(130,97,238,0.6));
+}
+
 
 
