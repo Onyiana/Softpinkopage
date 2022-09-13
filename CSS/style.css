@@ -9,8 +9,13 @@
 #bg{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 70vh;
     padding-top:20px ;
+}
+
+.fixed-top{
+    top: 3%;
 }
 
 .btn {
@@ -29,10 +34,22 @@
 #work-process{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
     background-position: center;
-    height: 80vh;
+    background-repeat: no-repeat;
+    height: 85vh;
 }
 
 #pricing{
     background-color: #F2F2FE;
 }
+
+#counting-num{
+    background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+    font-size: 18px;
+}
+
+
 
