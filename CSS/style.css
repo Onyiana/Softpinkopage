@@ -171,5 +171,9 @@ html,body{
     .p-5{
         padding: 1rem!important;
     }
+
+    #counting-num{
+        height: 90vh;
+    }
  }
 
