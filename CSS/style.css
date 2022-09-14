@@ -18,6 +18,12 @@ html,body{
     padding-top:20px ;
 }
 
+.business{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .fixed-top{
     top: 3%;
 }
@@ -42,6 +48,10 @@ html,body{
     height: 85vh;
 }
 
+.workProcess {
+    width: 50%;
+}
+
 #pricing{
     background-color: #F2F2FE;
 }
@@ -64,9 +74,102 @@ html,body{
     background-color: #F2F2FE;  
 }
 
+.btn-b{
+    background-color: #8261EE;
+    color: #fff;
+    font-size: 10px;
+    padding: 5px;
+    width: 20%; 
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute; 
+    left:55%; 
+    transform: translate(-10%, -10%);
+}
+
 #footer{
     background-image: linear-gradient(to right,rgba(164,89,210,0.8),rgba(130,97,238,0.6));
 }
 
+@media screen and (max-width:992px){
+    #bg{
+        height: 60vh;
+        background-position:top;
+    }
+    
+    .business{
+        width: 60%;
+    }
+    #work-process {
+        background-position:top;
+    }
+}
 
+@media screen and (max-width:768px) {
+    #work-process {
+        background-position:center;
+    }
+
+    .business{
+        width: 65%;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    #work-process {
+        height: 120vh;
+    }
+    
+    #counting-num{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #work-process {
+        height: 160vh;
+    }
+
+    .business{
+        width: 80%;
+    }
+
+    .workProcess {
+        width: 80%;
+    }
+
+    .btn-b{
+        left:35%;
+        width: 30%
+    }
+}
+
+@media screen and (max-width:375px) {
+    .business {
+        width: 85%;
+    }
+
+    #work-process {
+        height: 115vh;
+    }
+
+    .display-6{
+        font-size:25px;
+        font-weight: 700;
+    }
+
+    .ps-5{
+        padding-left: 1rem!important;
+    }
+
+    .workProcess {
+        width: 90%;
+    }
+
+    .p-5{
+        padding: 1rem!important;
+    }
+ }
 
