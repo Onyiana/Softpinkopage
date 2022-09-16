@@ -12,16 +12,19 @@ html,body{
 
 #bg{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
-    background-position: center;
+    height: 60vh;
     background-repeat: no-repeat;
-    height: 70vh;
-    padding-top:20px ;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .business{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
 }
 
 .fixed-top{
@@ -69,9 +72,10 @@ html,body{
 
 #work-process{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
-    background-position: center;
     background-repeat: no-repeat;
-    height: 85vh;
+    background-size: cover;
+    background-position: bottom;
+    height: 75vh;
 }
 
 .workProcess {
@@ -84,9 +88,10 @@ html,body{
 
 #counting-num{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
-    background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
     height: 50vh;
     font-size: 18px;
 }
@@ -118,28 +123,17 @@ html,body{
 }
 
 @media screen and (max-width:992px){
-    #bg{
-        height: 60vh;
-        background-position:top;
+    .business{
+        width: 65%;
     }
     
-    .business{
-        width: 60%;
-    }
     #work-process {
-        background-position:top;
+        height: 85vh;
+        background-position: top;
     }
 }
 
 @media screen and (max-width:768px) {
-    #work-process {
-        background-position:center;
-    }
-
-    .business{
-        width: 65%;
-    }
-
     .lead {
         font-size: 1.1rem;
     }
