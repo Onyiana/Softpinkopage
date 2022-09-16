@@ -92,7 +92,6 @@ html,body{
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    height: 50vh;
     font-size: 18px;
 }
 
@@ -141,10 +140,6 @@ html,body{
     #work-process {
         height: 120vh;
     }
-    
-    #counting-num{
-        height: 100vh;
-    }
 }
 
 @media screen and (max-width:576px) {
@@ -190,10 +185,6 @@ html,body{
 
     .p-5{
         padding: 1rem!important;
-    }
-
-    #counting-num{
-        height: 90vh;
     }
  }
 
