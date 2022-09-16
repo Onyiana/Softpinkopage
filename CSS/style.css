@@ -74,8 +74,7 @@ html,body{
     background-image:linear-gradient(rgba(107, 63, 165, 0.74), rgba(107, 63, 165, 0.74)), url(/Images/hulgjayakfo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    height: 75vh;
+    background-position: center;
 }
 
 .workProcess {
@@ -125,27 +124,18 @@ html,body{
     .business{
         width: 65%;
     }
-    
-    #work-process {
-        height: 85vh;
-        background-position: top;
-    }
 }
 
 @media screen and (max-width:768px) {
     .lead {
         font-size: 1.1rem;
     }
-
-    #work-process {
-        height: 120vh;
-    }
 }
 
 @media screen and (max-width:576px) {
-    #work-process {
+    /* #work-process {
         height: 160vh;
-    }
+    } */
 
     .business{
         width: 80%;
@@ -166,9 +156,9 @@ html,body{
         width: 85%;
     }
 
-    #work-process {
+    /* #work-process {
         height: 115vh;
-    }
+    } */
 
     .display-6{
         font-size:25px;
