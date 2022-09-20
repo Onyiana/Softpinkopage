@@ -2,7 +2,7 @@ AOS.init();
 
 // this was used to 
 const typed = new Typed('.text-slider', {
-    strings: ["Start Up", "Business", "Investment"],
+    strings: ["Brand", "Business", "Investment"],
     typeSpeed: 90,
     loop: true,
     backDelay: 90,
