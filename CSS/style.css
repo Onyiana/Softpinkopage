@@ -138,9 +138,6 @@ html,body{
 }
 
 @media screen and (max-width:576px) {
-    /* #work-process {
-        height: 160vh;
-    } */
 
     .business{
         width: 80%;
@@ -164,10 +161,6 @@ html,body{
     .business {
         width: 85%;
     }
-
-    /* #work-process {
-        height: 115vh;
-    } */
 
     .display-6{
         font-size:25px;
